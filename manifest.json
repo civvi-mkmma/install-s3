@@ -1,0 +1,12 @@
+{
+"name": "Installation XIAO ESP32-S3",
+"version": "1.0",
+"builds": [
+{
+"chipFamily": "ESP32-S3",
+"parts": [
+{ "path": "votre_code_xiao.bin", "offset": 0 }
+]
+}
+]
+}
