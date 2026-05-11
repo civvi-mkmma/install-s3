@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mise à jour XIAO ESP32-S3</title>
+    <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f8f9fa;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .btn-flash {
+            background-color: #00a01a;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+        .btn-flash:hover {
+            background-color: #007d14;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Mise à jour du XIAO ESP32-S3</h3>
+        <p>Connectez votre carte en USB avant de cliquer.</p>
+        
+        <!-- Notez que l'URL du manifest est maintenant un simple lien relatif ! -->
+        <esp-web-install-button manifest="manifest.json">
+            <button slot="activate" class="btn-flash">TÉLÉVERSER LE CODE</button>
+            <span slot="unsupported">Oups ! Votre navigateur ne supporte pas le flashage web. Utilisez Chrome ou Edge sur ordinateur.</span>
+        </esp-web-install-button>
+    </div>
+</body>
+</html>
