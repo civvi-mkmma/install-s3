@@ -5,7 +5,7 @@
 {
 "chipFamily": "ESP32-S3",
 "parts": [
-{ "path": "civvi-v10.ino.merged.bin", "offset": 0 }
+{ "path": "civvi-v11.ino.merged.bin", "offset": 0 }
 ]
 }
 ]
