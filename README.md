@@ -1,25 +1,21 @@
 
 # CIVVI
-## v13 - Guide de Mise en Service
+## Guide de Mise en Service
 
 *Design & Conception par Civvi*  
 *Aucun outil requis !*
 
 ---
 
-## Page 1/3
-
 ### Étape 1 : Alimenter le module ESP8266
-* (Illustration : Brancher le module ESP à l'aide d'un câble USB vers un chargeur)
+* Brancher le module ESP à l'aide d'un câble USB vers un chargeur
 
 ### Étape 2 : Se connecter au réseau Wi-Fi
 * Ouvrez les paramètres de votre appareil.
 * Accédez au menu **Wi-Fi**.
-* Connectez-vous au réseau : `> civvi-XXXX`
+* Connectez-vous au réseau : `> civvi-`
 
 ---
-
-## Page 2/3
 
 ### Étape 3 : Ouvrir le portail (Écran "0")
 * Ouvrez un navigateur web sur votre appareil.
@@ -36,8 +32,6 @@ Structure de l'interface principale :
 *Les 4 coins de l'écran sont équipés de boutons de couleur (voir étape 5).*
 
 ---
-
-## Page 3/3
 
 ### Étape 5 : Navigation (Les 4 Coins)
 * **[1.1] Bleu / Rond (En haut à gauche) :**  
